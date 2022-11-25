@@ -5,11 +5,11 @@ mokas_model = pickle.load(open('usedcar_model.sav', 'rb'))
 
 st.title('Used Car Price Prediction with KNN')
 
-year = st.text_input('Input Car Year')
-mileage = st.text_input('Input Car Mileage')
-tax = st.text_input('Input Car Tax')
-mpg = st.text_input('Input Car Gas Average Needs')
-engineSize = st.text_input('Input Size of Car Engine')
+year = st.number_input('Input Car Year')
+mileage = st.number_input('Input Car Mileage')
+tax = st.number_input('Input Car Tax')
+mpg = st.number_input('Input Car Gas Average Needs')
+engineSize = st.number_input('Input Size of Car Engine')
 
 mokas_predict = ''
 
