@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-mokas_model = pickle.load(open('usedcar_model2.sav', 'rb'))
+mokas_model = pickle.load(open('usedcar_model.sav', 'rb'))
 
 st.title('Used Car Price Prediction with KNN')
 
