@@ -1,5 +1,6 @@
 import pickle
 import streamlit as st
+from sklearn.metrics import metrics
 
 mokas_model = pickle.load(open('usedcar_model2.sav', 'rb'))
 
