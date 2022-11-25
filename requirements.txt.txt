@@ -5,3 +5,4 @@ pickle
 pip==22.2.2
 matplotlib==3.5.3
 scikit-learn
+sklearn
